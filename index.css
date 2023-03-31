@@ -1,0 +1,303 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto Condensed|Arimo|PT Sans Narrow');
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	RESET
+/*-----------------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #026;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Condensed','sans-serif';
+    color: #026;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: 150%
+}
+
+h4 {
+    font-size: 110%;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+body {
+    background-color: #eeeeee;
+    /* text-align: center; */
+    font-size: 80%;
+    font-family: 'Roboto',sans-serif;
+}
+
+div {
+    background-color: #aaaaaa;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+img.title {
+    /* margin-left: 115px; */
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+img.start_boat {
+    display: block;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+div.content {
+    background-color: #ffffff;
+    width: 65%; /* 700 px */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    /* width: 50%; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+/* Menu */
+
+div.menu {
+    background-color: #333;
+    font-family: 'Roboto Condensed', 'sans-serif';
+    font-weight: normal;
+    overflow: visible;
+    /* border-top: 1px solid #000; */
+    /* border-bottom: 1px solid #000; */
+}
+
+div.menu ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 100%;
+}
+
+div.menu ul.submenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 80%;    
+}
+
+div.menu li {
+    float: left;
+    text-align: center;
+    /* border-right: 1px solid #000; */
+    background-color: #ccc;
+}
+
+div.menu li a {
+    display: block;
+    text-decoration: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    padding-right: 13px;
+    color: #fff;
+    background-color: #333333;
+    /* color: #000; */
+    /* background-color: #ccc; */
+}
+
+div.menu li a:hover {
+    background-color: #026;
+    color: white;
+}
+
+div.menu li a.active {
+    background-color: #026;
+    color: white;
+}
+
+
+div.main {
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 20px;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+div.text {
+    float: left;
+    text-align: justify;
+    background: transparent;
+    /* background: #bbb; */
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 60%; /* 430 px */
+    font-family: 'Roboto',sans-serif;
+    font-size: 100%;
+}
+
+div.text h1 {
+    text-shadow: 1px 1px 4px #666;
+}
+
+div.messages {
+    background: transparent;
+    float: right;
+    width: 25%; /* 170 px */
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    /* border-left: 1px solid #ddd; */
+    /* border-bottom: 1px solid #ddd; */
+    box-shadow: 1px 1px 6px 0px #aaf;
+    border-radius: 5px;
+}
+
+table.styrelsen {
+}
+
+/* div.messages h4 { */
+/*     /\* font-family: 'Open Sans','sans-serif'; *\/ */
+/*     font-size: 100%; */
+/*     /\* color: #026; *\/ */
+/*     /\* text-align: center; *\/ */
+/*     /\* font-weight: bold; *\/ */
+/*     /\* text-decoration: underline; *\/ */
+/*     margin-bottom: 2px; */
+/* } */
+
+div.messages p {
+    font-size: 90%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+table.avdinfo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+p.infolinks {
+}
+
+
+/* Album */
+
+div.albumFront {
+    /* border-color: black; */
+    /* border: 3px; */
+    vertical-align: top;
+    width: 40%;
+    background: transparent;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div.albumFront h2 {
+    font-size: 150%;
+}
+
+div.albumFront img {
+    width: 100%;
+    margin-top: 5px;
+    box-shadow: 1px 1px 6px 0px #555;
+}
+
+div.gallery {
+    background: transparent;
+}
+
+div.gallery img {
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 1px 1px 6px 0px #555;
+}
+
+/* Historia */
+
+table.historia {
+    margin-bottom: 10px;
+}
+
+table.historia td {
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+/* Footer */
+
+div.footer {
+    display: block;
+    padding-top: 5px;
+    margin-top: 20px;
+    height: 21px;
+    font-size: 100%;
+    background: #ddd;
+    width: 100%;
+}
+
+div.footer ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 15px;
+}
+
+div.footer li {
+    float: left;
+    margin: 0 15px 0 0;
+    font-weight: bold;
+    color: #777;
+}
+
+div.footer li.right {
+    float: right;
+}
+
+div.footer li a {
+    color: #777; /* #04c */
+    /* color: white; */
+    /* font-weight: normal; */
+    /* text-decoration: underline; */
+}
